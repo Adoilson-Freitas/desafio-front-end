@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFFFFF;
+  --gray-50: ##E5E5E5;
+
+  --red-100: #FFC1CC;
+  --red-500: #F62A4F;
+  --red-900: #831327;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 730px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--gray-50);
+  margin: auto;
+}
+
+body, button {
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+
+button {
+  background: var(--red-500);
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+}

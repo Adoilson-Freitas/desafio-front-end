@@ -1,0 +1,64 @@
+.mainContainer {
+  margin-left: 3rem;
+
+  h2 {
+    margin: 2rem 0 1rem 0;
+    font-size: 1.2rem;
+  }
+
+  .sectionCharacteristics {
+    label {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+  
+    .color {
+       color: var(--red-500);
+      &:hover {
+        color: var(--red-900);
+      }
+    }
+     
+  }
+
+  .sectionSize {
+    
+    button {
+      width: 2rem;
+      height: 2rem;
+      font-size: 1.5rem;
+      &:disabled {
+        background: var(--red-100);
+      }
+      &:hover {
+        background: var(--red-900);
+      }
+      & + button {
+        margin: 0 10px;
+      }
+      
+    }
+  }
+  
+ 
+.sectionPrevia {
+  margin-bottom: 2rem;
+  .bold {
+    font-weight: 700;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+}
+
+}
+
+
+

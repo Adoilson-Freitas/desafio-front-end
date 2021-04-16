@@ -1,0 +1,22 @@
+.headerContainer {
+  height: 8rem;
+  background: var(--red-100);
+  border-radius: 0 0 10rem 2rem;
+
+  p {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    &:last-child {
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width: 600px) {
+   p {
+     line-height: 1.4em;
+   }
+  }
+  
+}
+

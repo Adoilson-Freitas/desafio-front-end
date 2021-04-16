@@ -1,0 +1,41 @@
+.footerContainer {
+  height: 8rem;
+  background: var(--red-100);
+  border-radius: 4rem 0 0 0;
+
+  span {
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 3.5rem;
+  }
+
+  button {
+    float: right;
+    border-radius: 0.25rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    width: 13rem;
+    height: 3rem;
+  }
+
+  @media (max-width: 600px) {
+    button {
+      width: 10rem;
+      height: 2.5rem;
+   }
+   span {
+    margin-left: 3rem;
+  }
+  }
+
+  @media (max-width: 500px) {
+    button {
+      width: 6rem;
+      height: 2.5rem;
+   }
+   
+  }
+}
+
+
+
