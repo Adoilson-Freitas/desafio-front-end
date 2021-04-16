@@ -1,6 +1,6 @@
 # desafio-front-end
 
-![Cinnamon-Apr-16-2021_00_54_10am-_online-video-cutter com_](https://user-images.githubusercontent.com/56658900/114969982-e0706780-9e4f-11eb-9eb3-2635c2340c57.gif)
+![imgdesafio](https://user-images.githubusercontent.com/56658900/115093596-45c86500-9ef1-11eb-84b6-cb265b9955b9.png)
 
 
 ### 🎲 Rodando aplicação
