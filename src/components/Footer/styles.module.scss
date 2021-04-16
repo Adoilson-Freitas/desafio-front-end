@@ -4,7 +4,7 @@
   background-image: url('../../assets/footer.svg');;
   span {
     position: absolute;
-    margin-left: 8rem;
+    margin-left: 3rem;
     margin-top: 3.5rem;
   }
 
@@ -13,19 +13,11 @@
     border-radius: 0.25rem;
     margin-right: 3rem;
     margin-top: 3rem;
-    width: 13rem;
-    height: 3rem;
+    width: 10rem;
+    height: 2.5rem;
   }
 
-  @media (max-width: 600px) {
-    button {
-      width: 10rem;
-      height: 2.5rem;
-   }
-   span {
-    margin-left: 3rem;
-  }
-  }
+
 
   @media (max-width: 500px) {
     button {

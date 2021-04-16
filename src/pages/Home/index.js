@@ -1,7 +1,8 @@
 import { Header } from '../../components/Header';
-import styles from './styles.module.scss';
-import Checkbox from "@material-ui/core/Checkbox";
 import { useRef, useState } from 'react';
+import Checkbox from "@material-ui/core/Checkbox";
+
+import styles from './styles.module.scss';
 import { Footer } from '../../components/Footer';
 
 export function Home() {
