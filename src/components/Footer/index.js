@@ -17,10 +17,7 @@ export function Footer() {
   return (
     <footer className={styles.footerContainer}>
     <span>{text}</span>
-    <button 
-     type="submit"
-     onClick={handleChangeText}
-    >
+    <button type="submit" onClick={handleChangeText}>
       Enviar
     </button>
   </footer>
