@@ -90,7 +90,7 @@ export function Home() {
 
         <button
         onClick={handleAddSize}
-        disabled={size >= 80 ? true : false}
+        disabled={size >= 50 ? true : false}
 
         >
           +
